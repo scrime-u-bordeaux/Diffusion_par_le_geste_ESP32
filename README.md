@@ -42,13 +42,16 @@ Ainsi on sépare la chaîne de caractère avec comme délimiteur \n. et selon l'
 
 ## Mise en fonction :
 
-    1- Allumer les cartes ESP, via un secteur et un câble USB ou avec une batterie si c'est possible. 
+- Allumer les cartes ESP, via un secteur et un câble USB ou avec une batterie si c'est possible. 
 Les deux leds des ESP liées aux hauts-parleurs seront allumées tant que les cartes ne seront pas connectées au Wifi indiquée dans leur firmware. 
 En ce qui concerne la télécommande, la led blinkera tant que la télécommande ne sera pas connectée au Wifi. 
 Lorsqu'une carte est connectée, peu importe laquelle, la led bleue de la carte reste en surbrilliance tant que la carte associée n'est pas connectée au serveur websocket. 
-    2- Connecter le pc au même Wifi que celle indiquée dans le firmware des cartes et changer l'IPv4 si besoin. 
-    3- Lancer le script .mjs avec node ce qui lancera le serveur websocket, les leds bleues de toutes les cartes devraient s'éteindre, et un message sur la console devrait s'afficher chaque fois qu'une carte se connecte. 
-    4- Dans ossia.score, ne pas oublier de faire "learn" si jamais le processus OSC vient d'être créé. Sinon il n'y a qu'à lancer le son et jouer avec les boutons.
+
+- Connecter le pc au même Wifi que celle indiquée dans le firmware des cartes et changer l'IPv4 si besoin. 
+
+- Lancer le script .mjs avec node ce qui lancera le serveur websocket, les leds bleues de toutes les cartes devraient s'éteindre, et un message sur la console devrait s'afficher chaque fois qu'une carte se connecte. 
+
+- Dans ossia.score, ne pas oublier de faire "learn" si jamais le processus OSC vient d'être créé. Sinon il n'y a qu'à lancer le son et jouer avec les boutons.
 
 ## Explications des fonctions javascript  :
 
